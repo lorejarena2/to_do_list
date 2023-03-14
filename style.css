@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(128, 128, 128, 0.486);
+    font-family: 'Roboto Slab', serif;
+}
+
+.contenedor{
+width: 50%;
+height: 70%;
+
+border-radius: 20px;
+background-color: white;
+}
+
+.imagen{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    background-image: url('https://blog.hubspot.com/hubfs/To_Do_List.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+
+.input{
+    width: 60%;
+    height: 100%;
+    border: 1px solid gray; 
+}
+
+.input2{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray; 
+    font-size: 20px;
+    color:black;
+}
+
+.mas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.guarda{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.conte_item{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .item{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.226); 
+   
+} 
+
+.ima{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.alerta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    width: 100%;
+    height: 3%;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.siempre{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
